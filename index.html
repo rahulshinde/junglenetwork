@@ -16,23 +16,62 @@
           font-weight: 200;
           margin: 0;
           font-family: 'raidxp', sans-serif;
+          letter-spacing: -0.02em;
         }
 
+        #content{
+          position: fixed;
+          text-align: center;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
         h1 {
           font-size: 3rem;
           letter-spacing: -0.02em;
           text-transform: uppercase;
-          text-align: center;
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+        }
+        h1,
+        h2{
           margin: 0;
+          font-weight: 400;
+        }
+        h2{
+          font-size: 1rem;
+        }
+        a{
+          margin: 1rem 0;
+          display: inline-block;
+          border: 1px solid;
+          border-radius: 1rem;
+          text-decoration: none;
+          padding: 1rem 1rem 0.8rem 1rem;
+          line-height: 1;
+          box-sizing: border-box;
+          color: #000;
+        }
+        @media (hover: hover){
+          a:hover{
+            background-color: black;
+            color: white;
+          }
         }
       </style>
     </head>
 
     <body>
-      <h1>jungle network</h1>
+      <div id="content">
+        <h1>jungle network</h1>
+        <a 
+          id="download"
+          href='./jungle_network_issue1.pdf'
+          rel="noopener"
+        >
+          DOWNLOAD: Jungle Network Issue #1
+        </a>
+        <h2>
+          website soon...
+        </h2>
+      </div>
     </body>
 </html>
