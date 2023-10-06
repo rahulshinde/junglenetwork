@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'raidxp';
+  src: url('./raidxp-regular.otf') format('opentype');
+}
+body {
+  background-color: #fff;
+  color: #000;
+  font-weight: 200;
+  margin: 0;
+  font-family: 'raidxp', sans-serif;v
+  letter-spacing: -0.02em;
+}
+
+#content{
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+h1,
+h2{
+  margin: 0;
+  font-weight: 400;
+}
+h2{
+  font-size: 1rem;
+}
+a{
+  margin: 1rem 0;
+}
+a,
+button{
+  background-color: transparent;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 1rem 1rem 0.8rem 1rem;
+  font-family: 'raidxp', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  box-sizing: border-box;
+  color: #000;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid;
+  padding: 0 0.5rem;
+  font-family: 'raidxp', sans-serif;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: none;
+  line-height: 1;
+  box-sizing: border-box;
+  color: #000;
+  margin: 1rem 0;
+}
+
+input[type="submit"]{
+  background-color: transparent;
+  border: 1px solid;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem 0.4rem 1rem;
+}
+
+#mc_embed_shell{
+  display: none;
+}
+
+#newsletter_outer{
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#newsletter_outer.open #mc_embed_shell{
+  display: block;
+  text-align: center;
+}
+
+#mce-EMAIL{
+  text-align: center;
+}
+
+#newsletter_outer.open button{
+  border-color: transparent;
+}
+
+#newsletter_outer.open{
+  margin: 1rem 0;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+@media (hover: hover){
+  a:hover,
+  button:hover,
+  input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}

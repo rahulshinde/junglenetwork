@@ -4,66 +4,42 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Jungle Network</title>
-
-      <style>
-
-        @font-face {
-          font-family: 'raidxp';
-          src: url('./raidxp-regular.otf') format('opentype');
-        }
-        body {
-          background-color: #fff;
-          color: #000;
-          font-weight: 200;
-          margin: 0;
-          font-family: 'raidxp', sans-serif;
-          letter-spacing: -0.02em;
-        }
-
-        #content{
-          position: fixed;
-          text-align: center;
-          top: 50%;
-          left: 50%;
-          width: 95%;
-          transform: translate(-50%, -50%);
-        }
-        h1 {
-          font-size: 3rem;
-          letter-spacing: -0.02em;
-          text-transform: uppercase;
-        }
-        h1,
-        h2{
-          margin: 0;
-          font-weight: 400;
-        }
-        h2{
-          font-size: 1rem;
-        }
-        a{
-          margin: 1rem 0;
-          display: inline-block;
-          border: 1px solid;
-          border-radius: 1rem;
-          text-decoration: none;
-          padding: 1rem 1rem 0.8rem 1rem;
-          line-height: 1;
-          box-sizing: border-box;
-          color: #000;
-        }
-        @media (hover: hover){
-          a:hover{
-            background-color: black;
-            color: white;
-          }
-        }
-      </style>
+      <link rel="stylesheet" href="./main.css">
     </head>
 
     <body>
       <div id="content">
         <h1>jungle network</h1>
+        <div id="newsletter_outer">
+
+          <button id="signup">
+            NEWSLETTER SIGNUP
+          </button>
+          <div id="mc_embed_shell">
+            
+            <div id="mc_embed_signup">
+              <form action="https://rip.us13.list-manage.com/subscribe/post?u=43c9c4563cdca3c399c00eae8&amp;id=86891df0a3&amp;f_id=00bc2ce5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+                <div id="mc_embed_signup_scroll">
+                  <div class="mc-field-group"><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="email pls"><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+                  <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                    <input type="text" name="b_43c9c4563cdca3c399c00eae8_86891df0a3" tabindex="-1" value="">
+                  </div>
+                  <div class="optionalParent">
+                    <div class="clear foot">
+                      <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          </div>
+        </div>
         <a 
           id="download"
           href='./jungle_network_issue1.pdf'
@@ -81,7 +57,11 @@
         >
           DOWNLOAD: to_the_white_woman_in_alright_room_you_owe_me_2000_dollars_and_what_youre_doing_is_wrong.mp3
           <div style="font-size: 0.6rem; margin-top:0.4rem;">Mix by Intimacy Simulator</div>
+          
         </a>
-      </div>
+
+
     </body>
+
+    <script src="./main.js"></script>
 </html>
